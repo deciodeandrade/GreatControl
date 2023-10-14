@@ -17,6 +17,8 @@ gem 'turbolinks', '~> 5'
 
 gem 'jbuilder', '~> 2.7'
 
+gem 'will_paginate','3.1.7'
+
 gem 'devise_token_auth', '~> 1.1.4'
 
 gem 'bootsnap', '>= 1.4.2', require: false
