@@ -69,8 +69,9 @@ class CompaniesController < ApplicationController
       params.require(:company).permit(
         :name,
         :cnpj,
-        :address_id,
+        :logo,
         address_attributes: [
+          :id,
           :number,
           :street,
           :neighborhood,
